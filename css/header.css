@@ -1,0 +1,133 @@
+/* 广告区域 */
+.ad_header {
+    width: 100%;
+    height: 80px;
+    background-color: #d13681;
+    z-index: 999;
+    position: relative;
+}
+
+.ad_header a {
+    display: block;
+    width: 1190px;
+    height: 80px;
+    margin: 0 auto;
+}
+
+/* 顶部灰色导航栏 */
+.header_main {
+    width: 1190px;
+    background-color: #f1f3ef;
+    margin: 0 auto;
+}
+
+.nav_header_link {
+    height: 30px;
+    background-color: #e3e4e5;
+}
+
+
+.nav_header_link_main {
+    width: 1190px;
+    height: 30px;
+    margin: 0 auto;
+}
+
+.nav_header_link_main_text {
+    float: right;
+}
+
+.nav_header_link_main_text .spacer {
+    overflow: hidden;
+    margin: 11px 5px 0;
+    width: 1px;
+    height: 10px;
+    background-color: #ccc;
+}
+
+.nav_header_link_main_text li {
+    float: left;
+    margin: 0 10px;
+}
+
+.nav_header_link_main_text li:nth-child(1) a:nth-child(2) {
+    color: #f10215
+}
+
+
+.nav_header_link_main_text a {
+    line-height: 30px;
+    font-size: 12px;
+    color: #999999;
+}
+
+.nav_header_link_main_text i {
+    line-height: 30px;
+    font-size: 8px;
+    color: #999999;
+}
+
+.nav_header_link_main_text a:hover {
+    color: #f10215;
+}
+
+.nav_header_link_main_gps {
+    width: 258px;
+    height: 30px;
+    float: left;
+}
+
+.nav_header_link_main_gps_main {
+    float: right;
+    line-height: 30px;
+    color: #999999
+}
+
+.nav_header_link_main_gps_main i {
+    color: #de3029;
+}
+
+/* 搜索框区域 */
+.search_header_logo {
+    float: left;
+    width: 190px;
+    height: 170px;
+    background-image: url(../images/logo.png);
+    background-size: auto 170px;
+    position: relative;
+    top: -30px;
+    box-shadow: 1px 0px 10px #ccc, -1px 0px 10px #ccc;
+}
+
+.search_header_up_search {
+    position: relative;
+    width: 550px;
+    height: 35px;
+    margin: 0 auto;
+}
+
+.search_header_up_search span {
+    float: left;
+}
+
+.search_header_up_search input {
+    width: 500px;
+    height: 35px;
+}
+
+.search_header_up_search .search_header_up_search_camera {
+    position: absolute;
+    width: 20px;
+    left: 470px;
+    top: 7px;
+}
+
+.search_header_up_search button {
+    width: 50px;
+    height: 35px;
+    background: #de3029
+}
+
+.search_header_up_search button i {
+    color: #ffffff
+}

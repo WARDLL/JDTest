@@ -19,12 +19,16 @@
     width: 1190px;
     background-color: #f1f3ef;
     margin: 0 auto;
+    overflow: hidden;
 }
 
 .nav_header_link {
+    position: relative;
+    z-index: 1;
     height: 30px;
     background-color: #e3e4e5;
     border-bottom: 1px solid #dddddd;
+    overflow: hidden;
 }
 
 .nav_header_link_main {
